@@ -13,7 +13,7 @@ def preprocess_text(text):
     #tokens = [token for token in tokens if token not in stop_words]
     return " ".join(tokens)
 
-clf = pickle.load(open('movie_review_classifierr.pkl', 'rb'))
+clf = pickle.load(open('movie_review_classifier.pkl', 'rb'))
 
 vectorizer = pickle.load(open('movie_review_vectorizer.pkl', 'rb'))
 
