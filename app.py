@@ -1,4 +1,5 @@
 import pickle
+import nltk
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
